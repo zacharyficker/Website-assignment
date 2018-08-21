@@ -1,0 +1,123 @@
+body {
+    text-align: center;
+}
+h1 {
+    font-family: 'Graduate', sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+    margin: auto;
+    transition-duration: .25s;
+}
+h2 {
+    font-family: 'Graduate', sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: auto;
+    text-align: left;
+    transition-duration: 1.4s;
+}
+h3 {
+    font-family: 'Graduate', sans-serif;
+    font-size: 1.125em;
+    font-weight: normal;
+    margin: auto;
+    color: #666666;
+    transition-duration: .25s;
+}
+table {
+    width: 100%;
+}
+table, td, tr {
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    transition-duration: 0.2s;
+    color: #666;
+    border: 1px solid #eee;
+}
+th {
+    border: 1px solid #eeeeee;
+    font-family: 'Graduate', sans-serif;
+    padding: 8px;
+    transition-duration: 0.2s;
+    color: #000;
+}
+td {
+    
+}
+td.b {
+    background-color: #fee;
+}    
+td.m {
+    background-color: #ffc;
+}
+td.g {
+    background-color: #efe;
+}
+td:hover {
+    background-color: #eee;
+    color: #000;
+}
+td.b:hover {
+    font-weight: bolder;
+    background-color: #a00;
+    color: #fcc;
+}
+td.m:hover {
+    font-weight: bolder;
+    background-color: #a70;
+    color: #ffb;
+}
+td.g:hover {
+    font-weight: bolder;
+    background-color: #0a0;
+    color: #cfc;
+}
+th:hover {
+    color: #666;
+    background-color: #eee;
+}
+h1:hover {
+    color: blueviolet;
+    font-size: 3.5em;
+    /*transform: rotateY(360deg)*/
+}
+h3:hover {
+    color: blueviolet;
+    font-size: 1.25em;
+}
+img {
+    width: auto;
+    height: 5em;
+    transition-duration: 1s;
+}
+img.big {
+    width: auto;
+    height: 5em;
+    transition-duration: 0.4s;
+    transition-delay: 0.4s;
+    /*max-width: 25em;*/
+}
+img.bigfast {
+    width: auto;
+    height: 5em;
+    transition-duration: 0.4s;
+}
+img:hover {
+    /*height: 100%;*/
+    /*filter: hue-rotate(360deg)*/
+}
+img.big:hover {
+    height: 25em;
+}
+img.bigfast:hover {
+    height: 12.5em;
+}
+video {
+    height: 5em;
+    transition-duration: 0.4s;
+    transition-delay: 1s;
+}
+video:hover {
+    height: 360px;
+}
